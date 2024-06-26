@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVL Tree Visualization</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="container">
+        <div class="header">
+            <h1>AVL TREE</h1>
+            <p>A self-balancing binary search tree</p>
+        </div>
+    
+        <input
+        id="input"
+        autocomplete="off"
+            type="number"
+            placeholder="INPUT NODE VALUE...">
+
+            <div class="error-message" id="error-message"></div>
+        <div class="btn-container">
+            <button class="btn" id="add">
+            INSERT [ENTER]
+            </button>
+            <button class="btn" id="search">
+                SEARCH [S]
+                </button>
+                <button class="btn" id="Deletee">
+                    DELETE [D]
+                    </button>
+        </div>
+        <div class="graph"></div>
+
+        <div class="transcript" id="transcript"></div> <!-- Add this line -->
+    </body>
+    <script src="./js/balancingAlgo.js"></script>
+    <script src="./js/createNodesAndLines.js"></script>
+    <script src="./js/deleteAlgo.js"></script>
+    <script src="./js/insertAlgo.js"></script>
+    <script src="./js/searchAlgo.js"></script>
+    <script src="./js/userInput.js"></script>
+
+    
+    </html>
